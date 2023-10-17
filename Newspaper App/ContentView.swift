@@ -9,15 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        GeometryReader { geometry in
+            VStack(alignment: .center) {
+                
+                Text("Dagens nyheter").bold().font(.title)
+                
+                CardComponentView().frame(width: geometry.size.width * 0.9, height: geometry.size.height * 0.25, alignment: .center).background(.black).cornerRadius(9)
+            
         }
-        .padding()
+        .position(x: geometry.size.width * 0.5, y: geometry.size.height * 0.2)
+    }
     }
 }
+
+struct CardComponentView: View {
+    var body: some View {
+        
+            
+                AsyncImage(url: URL(string: "https://www.svtstatic.se/image/wide/992/41404046/1697528910"), content: { image in
+                    image.resizable().overlay(content: {
+                        
+                        VStack{
+                            
+                            Text("Attentat i Bryssel").foregroundColor(.white).bold().font(.title)
+                        }
+                        
+                    })
+                    
+                }, placeholder: {
+                    Text("Loading...")
+                
+            })
+            
+        }
+    }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
