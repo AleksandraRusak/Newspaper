@@ -46,6 +46,7 @@
 		F229E4762ADE6F9E00FA107F /* Newspaper_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newspaper_AppUITests.swift; sourceTree = "<group>"; };
 		F229E4782ADE6F9E00FA107F /* Newspaper_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newspaper_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F229E4882ADE7EC000FA107F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F229E48B2ADE87FB00FA107F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +217,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = F229E44F2ADE6F9800FA107F;
 			productRefGroup = F229E4592ADE6F9800FA107F /* Products */;
@@ -303,6 +305,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F229E4882ADE7EC000FA107F /* en */,
+				F229E48B2ADE87FB00FA107F /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
