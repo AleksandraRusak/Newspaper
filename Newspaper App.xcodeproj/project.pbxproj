@@ -15,6 +15,8 @@
 		F229E4772ADE6F9E00FA107F /* Newspaper_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229E4762ADE6F9E00FA107F /* Newspaper_AppUITests.swift */; };
 		F229E4792ADE6F9E00FA107F /* Newspaper_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229E4782ADE6F9E00FA107F /* Newspaper_AppUITestsLaunchTests.swift */; };
 		F229E4872ADE7EC000FA107F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F229E4892ADE7EC000FA107F /* Localizable.strings */; };
+		F229E48D2ADE8C0200FA107F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229E48C2ADE8C0200FA107F /* DetailView.swift */; };
+		F229E48F2AE01D7200FA107F /* NewsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229E48E2AE01D7200FA107F /* NewsArticle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F229E4782ADE6F9E00FA107F /* Newspaper_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newspaper_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F229E4882ADE7EC000FA107F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F229E48B2ADE87FB00FA107F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F229E48C2ADE8C0200FA107F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F229E48E2AE01D7200FA107F /* NewsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				F229E45F2ADE6F9D00FA107F /* Assets.xcassets */,
 				F229E4612ADE6F9D00FA107F /* Preview Content */,
 				F229E4892ADE7EC000FA107F /* Localizable.strings */,
+				F229E48C2ADE8C0200FA107F /* DetailView.swift */,
+				F229E48E2AE01D7200FA107F /* NewsArticle.swift */,
 			);
 			path = "Newspaper App";
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F229E45E2ADE6F9800FA107F /* ContentView.swift in Sources */,
+				F229E48F2AE01D7200FA107F /* NewsArticle.swift in Sources */,
+				F229E48D2ADE8C0200FA107F /* DetailView.swift in Sources */,
 				F229E45C2ADE6F9800FA107F /* Newspaper_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
